@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Everything Else - MultiFab Studio </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1> Everything Else </h1>
+            <h3> Our mission, ethics, studio operations, and contact portal </h3>
+
+            <nav>
+                <a href="index.html"> Home </a>
+                <a href="3dprinting.html"> 3D Printing </a>
+                <a href="lasercutting.html"> Laser Cutting </a>
+                <a href="penplotting.html"> Pen Plotting </a>
+                <a href="stickercutting.html"> Sticker Cutting </a>
+                <a href="designservices.html"> Design Services </a>
+                <a href="everythingelse.html" class="active"> Everything Else </a>
+            </nav>
+
+            <h2> Our Mission </h2>
+            <p>
+                Our mission is to empower creators of all ages to bring their ideas to life with our cutting-edge technology-3D printing, laser cutting, pen plotting, and sticker cutting. We strive to deliver extraordinary, custom-made products that reflect creativity and craftsmanship, while providing a welcoming space where curiosity, learning, and innovation thrive. By combining advanced tools with a passion for design, we help every creator turn imagination into reality.
+            </p>
+
+            <h2> Operating Hours and Turnaround Times </h2>
+            <div class="materials-wrapper">
+                <h3> Shop Hours / Turnaround </h3>
+                <ul>
+                    <li>
+                        <strong> Monday - Friday: </strong>
+                        3:30 PM - 8:00 PM
+                    </li>
+                    <li> 
+                        <strong> Saturday: </strong>
+                        10:00 AM - 6:00 PM
+                    </li>
+                    <li> 
+                        <strong> Sunday: </strong>
+                        Closed
+                    </li>
+                    <li>
+                        <strong> Standard Production Turnaround: </strong>
+                        24-48 hours for standard print and cut runs; 2-4 days for custom design work.
+                    </li>
+                </ul>
+            </div>
+
+            <h2> Code of Ethics and Values </h2>
+            <p>
+                At MultiFab Studio, all team members help create a safe, enjoyable environment for everyone we work with-clients, collaborators, and team members alike. This Code of Ethics reflects our values, guides our decisions, and ensures a respectful, responsible approach to creative production.
+            </p>
+
+            <div class="materials-wrapper">
+                <h3> Our Core Principles </h3>
+                <ul>
+                    <li>
+                        <strong> Creativity with Integrity: </strong>
+                        We value original ideas and creative expression. We do not copy or reproduce copyrighted materials without permission, and we encourage clients and teammates to explore their own visions.
+                    </li>
+                    <li>
+                        <strong> Respect for Everybody: </strong>
+                        We welcome and respect people of all backgrounds, abilities, and experience levels. All interactions are inclusive, professional, and free from discrimination or harassment.
+                    </li>
+                    <li>
+                        <strong> Safe and Responsible Production: </strong>
+                        We prioritize safety when working with tools like 3D printers, laser cutters, and other fabrication equipment, following all safety protocols to maintain a productive shop.
+                    </li>
+                    <li>
+                        <strong> Growth and Innovation: </strong>
+                        We believe in continuous learning and growth. We embrace curiosity, experimentation, and the confidence to learn from mistakes to improve our craftsmanship.
+                    </li>
+                    <li>
+                        <strong> Commitment to Craft and Quality: </strong>
+                        We take pride in every piece produced. We combine creative problem-solving with precision craftsmanship to ensure that each project meets high standards.
+                    </li>
+                    <li> 
+                        <strong> Client Confidentiality and Intellectual Property: </strong>
+                        We respect the privacy and ownership of every client's designs. All custom work is treated confidentially and will never be shared or duplicated without written permission.
+                    </li>
+                    <li>
+                        <strong> Ethical Production Guidelines: </strong>
+                        We refuse projects involving hate speech, harassment, violence, or unethical content. MultiFab Studio reserves the right to decline any project that goes againstt our values.
+                    </li>
+                    <li> 
+                        <strong> Collaborative Client Process: </strong>
+                        We work closely with clients at every stage, providing honest feedback, accurate timelines, and regular updates to turn every vision into a reality.
+                    </li>
+                    <li>
+                        <strong> Environmental Responsibility: </strong>
+                        We use materials responsibly, aim to reduce shop waste, utilize recyclable filaments and scrap reduction techniques, and promote eco-friendly production options.
+                    </li>
+                    <li>
+                        <strong> Honesty in Business: </strong>
+                        We are honest about pricing, capabilities, and turnaround times, always communicating openly and delivering on what we promise.
+                    </li>
+                </ul>
+            </div>
+
+            <h2> Contact Us </h2>
+            <p> Have a question, project idea, or suggestion? Fill out the form below to get in touch with our team! </p>
+
+            <div class="contact-form-container">
+                <form action="#" method="post" class="contact-form">
+                    <div class="form-row">
+                        <label for="name"> Name: </label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="age"> Age: </label>
+                        <input type="number" id="age" name="age" min="1" max="120">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email"> Email: </label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-section">
+                        <p class="form-heading"> Reason for writing us: </p>
+                        <label class="checkbox-label"><input type="checkbox" name="reason" value="suggestion"> I have a suggestion </label>
+                        <label class="checkbox-label"><input type="checkbox" name="reason" value="question"> I have a question </label>
+                        <label class="checkbox-label"><input type="checkbox" name="reason" value="make_something"> I want to make something </label>
+                        <label class="checkbox-label"><input type="checkbox" name="reason" value="job"> I want a job </label>
+                    </div>
+
+                    <div class="form-section">
+                        <p class="form-heading"> Please write your message below: </p>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <div class="form-buttons">
+                        <button type="submit" class="btn-submit"> Submit </button>
+                        <button type="reset" class="btn-reset"> Reset </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <p><strong> MultiFab Studio </strong> &bull; <a href="https://www.google.com/maps/search/?api=1&query=777+Fabrication+Way+Rigby+ID" target="_blank"> 777 Fabrication Way, Rigby, ID </a> &bull; <a href="tel:12088497832"> (208) 849-7832 </a></p>
+            <p> Open Monday-Friday 3:30 PM - 8:00 PM | Saturday 10:00 AM - 6:00 PM </p>
+            <p> &copy; 2026 MultiFab Studio. All rights reserved. &bull; <a href="everythingelse.html"> Contact us and Policies </a></p>
+        </footer>
+    </body>
+</html>
