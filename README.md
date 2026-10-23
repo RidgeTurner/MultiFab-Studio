@@ -5,7 +5,7 @@ How it was built
 - Designed with an industrial color palette (deep blue #0066cc and dark navy #0f172a), pill-shaped navigation with active-page indicators, and consistent responsive light-theme footers.
 - Fully audited and polished across all 7 pages (index.html, 3dprinting.html, lasercutting.html, penplotting.html, stickercutting.html, designservices.html, and everythingelse.html) for clean UI, semantic markup, and zero-error code.
 
-How to run it:
+How to run:
 
 You can view the live site deployed via GitHub Pages here:
 https://ridgeturner.github.io/MultiFab-Studio/
